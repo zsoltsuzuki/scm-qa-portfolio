@@ -1,36 +1,20 @@
-"""
-generate_dataset.py
--------------------
-Generates a synthetic Supply Chain Management (SCM) orders dataset
-with realistic dirty data for use in QA testing and analysis.
-
-Output: data/scm_orders.csv (~500 rows)
-
-Dirty data intentionally injected:
-  - Null values (missing supplier, quantity, delivery date)
-  - Duplicate rows
-  - Outliers (extreme quantities, negative values)
-  - Invalid status values
-  - Inconsistent date formats
-"""
-
 import pandas as pd
 import numpy as np
 import os
 import random
 from datetime import datetime, timedelta
 
-# ── Reproducibility ──────────────────────────────────────────────────────────
+# Reproducibility
 SEED = 42
 random.seed(SEED)
 np.random.seed(SEED)
 
-# ── Configuration ────────────────────────────────────────────────────────────
+# Configuration 
 NUM_CLEAN_ROWS = 450
 OUTPUT_DIR = "data"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "scm_orders.csv")
 
-# ── Reference Data ───────────────────────────────────────────────────────────
+# Reference Data
 PRODUCTS = [
     "Microcontroller Unit", "Industrial Sensor", "Power Supply Module",
     "Conveyor Belt Segment", "Hydraulic Pump", "Circuit Breaker",
@@ -48,8 +32,7 @@ INVALID_STATUSES = ["UNKNOWN", "N/A", "delivered", "transit", ""]  # dirty value
 
 REGIONS = ["Central Europe", "Western Europe", "Eastern Europe", "Asia-Pacific", "North America"]
 
-# ── Helper Functions ─────────────────────────────────────────────────────────
-
+# Date Helper Functions 
 def random_date(start_year: int = 2023, end_year: int = 2025) -> datetime:
     """Returns a random datetime between start_year and end_year."""
     start = datetime(start_year, 1, 1)
@@ -73,8 +56,7 @@ def generate_order_id(index: int) -> str:
     return f"ORD-{str(index).zfill(5)}"
 
 
-# ── Clean Data Generation ────────────────────────────────────────────────────
-
+# Clean Data Generation
 def generate_clean_rows(n: int) -> list[dict]:
     rows = []
     for i in range(1, n + 1):
@@ -95,8 +77,7 @@ def generate_clean_rows(n: int) -> list[dict]:
     return rows
 
 
-# ── Dirty Data Injection ─────────────────────────────────────────────────────
-
+# Dirty Data Injection
 def inject_nulls(rows: list[dict], null_rate: float = 0.04) -> list[dict]:
     """Randomly nullify values in key columns."""
     nullable_cols = ["supplier", "quantity", "delivery_date", "region"]
@@ -149,18 +130,15 @@ def inject_negative_prices(rows: list[dict], n: int = 8) -> list[dict]:
         rows[idx]["unit_price_eur"] = round(-random.uniform(5.0, 500.0), 2)
     return rows
 
-
-# ── Main ─────────────────────────────────────────────────────────────────────
-
 def main():
-    print("🏭 SCM Dataset Generator")
+    print("SCM Dataset Generator")
     print("=" * 40)
 
-    # Generate clean base
-    print(f"  Generating {NUM_CLEAN_ROWS} clean rows...")
+    # Generate base with clean data
+    print(f"Generating {NUM_CLEAN_ROWS} clean rows...")
     rows = generate_clean_rows(NUM_CLEAN_ROWS)
 
-    # Inject dirty data
+    # Inject the dirty data
     print("  Injecting dirty data...")
     rows = inject_nulls(rows, null_rate=0.04)
     rows = inject_duplicates(rows, n=15)
@@ -169,7 +147,6 @@ def main():
     rows = inject_date_format_inconsistencies(rows, n=20)
     rows = inject_negative_prices(rows, n=8)
 
-    # Shuffle so dirty rows aren't all at the end
     random.shuffle(rows)
 
     # Build DataFrame
@@ -180,23 +157,22 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     df.to_csv(OUTPUT_FILE, index=False)
 
-    # ── Summary Report ───────────────────────────────────────────────────────
-    print(f"\n✅ Dataset saved to: {OUTPUT_FILE}")
-    print(f"\n📊 Dataset Summary")
-    print(f"  Total rows       : {total_rows}")
-    print(f"  Columns          : {list(df.columns)}")
-    print(f"\n🧟 Dirty Data Injected")
-    print(f"  Null values      : {df.isnull().sum().sum()} across all columns")
-    print(f"  Duplicate rows   : {df.duplicated().sum()}")
-    print(f"  Outlier qty rows : {((df['quantity'] <= 0) | (df['quantity'] > 10000)).sum()}")
-    print(f"  Invalid statuses : {(~df['status'].isin(VALID_STATUSES + [None])).sum()}")
-    print(f"  Negative prices  : {(df['unit_price_eur'] < 0).sum()}")
-    print(f"\n  Null breakdown by column:")
+    # Finishing Report
+    print(f"Dataset saved to:\n {OUTPUT_FILE}")
+    print(f"Dataset Summary")
+    print(f"Total rows:\n{total_rows}")
+    print(f"Columns:\n{list(df.columns)}")
+    print(f"Dirty Data Injected")
+    print(f"Null values:\n{df.isnull().sum().sum()} across all columns")
+    print(f"Duplicate rows:\n{df.duplicated().sum()}")
+    print(f"Outlier qty rows:\n{((df['quantity'] <= 0) | (df['quantity'] > 10000)).sum()}")
+    print(f"Invalid statuses:\n{(~df['status'].isin(VALID_STATUSES + [None])).sum()}")
+    print(f"Negative prices:\n{(df['unit_price_eur'] < 0).sum()}")
+    print(f"Null breakdown by column:")
     for col, count in df.isnull().sum().items():
         if count > 0:
             print(f"    {col:<20}: {count}")
-    print("\n🎉 Done. Ready for quality_checker.py!")
-
+    print("Done")
 
 if __name__ == "__main__":
     main()

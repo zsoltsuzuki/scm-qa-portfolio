@@ -1,0 +1,466 @@
+order_id,product,quantity,unit_price_eur,supplier,region,order_date,delivery_date,status,warehouse_id
+ORD-00198,Heat Exchanger,235.0,130.3,Emerson Electric,North America,2025-05-09,2025-06-21,Returned,WH-01
+ORD-00412,Conveyor Belt Segment,137.0,1069.71,Bosch Rexroth HU,Western Europe,2024-05-22,2024-07-06,Returned,WH-07
+ORD-00425,Steel Coupling,180.0,1094.32,Schneider Electric,Asia-Pacific,2025-04-27,2025-05-31,Returned,WH-04
+ORD-00188,Heat Exchanger,146.0,1506.02,Emerson Electric,Western Europe,2024-05-01,2024-06-01,Returned,WH-04
+ORD-00400,Circuit Breaker,76.0,186.97,ABB Limited,Eastern Europe,2023-03-24,2023-04-09,Cancelled,WH-09
+ORD-00182,Power Supply Module,470.0,-251.04,Parker Hannifin,Western Europe,2023-06-16,2023-07-26,Returned,WH-02
+ORD-00375,Heat Exchanger,216.0,734.0,Siemens AG,Asia-Pacific,2025-03-03,2025-04-30,Pending,WH-01
+ORD-00409,Circuit Breaker,246.0,1091.31,Emerson Electric,Eastern Europe,2023-02-09,2023-03-08,Returned,WH-09
+ORD-00052,Microcontroller Unit,363.0,874.93,Rockwell Automation,North America,2024-01-25,,In Transit,WH-06
+ORD-00134,Conveyor Belt Segment,441.0,1354.27,Parker Hannifin,North America,2023-10-16,2023-12-06,Delivered,WH-02
+ORD-00215,Circuit Breaker,204.0,632.2,Honeywell Supply,Western Europe,10/09/2023,2023-11-14,Pending,WH-01
+ORD-00062,Heat Exchanger,163.0,1900.33,Emerson Electric,North America,2025-12-23,2026-01-30,Returned,WH-07
+ORD-00018,LED Driver Board,471.0,6.14,Eaton Corporation,Asia-Pacific,2023-11-27,2024-01-03,Pending,WH-02
+ORD-00202,Steel Coupling,192.0,511.03,Bosch Rexroth HU,Eastern Europe,2023-03-31,2023-05-13,Pending,WH-06
+ORD-00057,Power Supply Module,338.0,174.17,Rockwell Automation,North America,2025-11-12,2025-12-15,Delivered,WH-02
+ORD-00162,Steel Coupling,249.0,1216.12,Parker Hannifin,Eastern Europe,2025-06-26,2025-08-10,In Transit,WH-09
+ORD-00083,Circuit Breaker,94.0,977.66,Eaton Corporation,Eastern Europe,2023-02-28,2023-04-03,Delivered,WH-05
+ORD-00129,Pneumatic Valve,427.0,1808.79,Honeywell Supply,Western Europe,2023-04-11,2023-05-22,Returned,WH-06
+ORD-00356,Power Supply Module,360.0,1732.83,ABB Limited,Western Europe,2024-07-21,,Delivered,WH-04
+ORD-00414,Heat Exchanger,73.0,1128.4,ABB Limited,Asia-Pacific,2024-12-21,2025-01-29,Returned,WH-05
+ORD-00071,Steel Coupling,70.0,1734.37,Siemens AG,Central Europe,2023-02-25,2023-03-05,Delivered,WH-07
+ORD-00312,Hydraulic Pump,402.0,1985.21,Emerson Electric,Western Europe,2023-03-02,2023-04-14,Delivered,WH-09
+ORD-00196,Heat Exchanger,3.0,1812.19,Bosch Rexroth HU,Eastern Europe,2025-08-18,2025-09-18,In Transit,WH-03
+ORD-00070,Pneumatic Valve,471.0,259.62,TE Connectivity,North America,2023-12-05,2024-01-30,Pending,WH-07
+ORD-00064,Conveyor Belt Segment,141.0,882.55,Honeywell Supply,,"December 03, 2025",2026-01-06,Delivered,WH-06
+ORD-00309,Heat Exchanger,124.0,1135.56,,North America,2024-09-04,2024-09-17,Delivered,WH-07
+ORD-00249,Heat Exchanger,472.0,945.85,Bosch Rexroth HU,Western Europe,2025-10-24,2025-12-15,Returned,WH-04
+ORD-00224,LED Driver Board,467.0,1737.08,Schneider Electric,North America,2023-09-22,2023-10-22,In Transit,WH-05
+ORD-00329,Steel Coupling,100000.0,78.35,Eaton Corporation,North America,2025-12-30,2026-02-03,Returned,WH-02
+ORD-00118,Pneumatic Valve,52.0,1054.27,Emerson Electric,Central Europe,2023-07-25,2023-09-21,In Transit,WH-07
+ORD-00190,Steel Coupling,258.0,1057.28,Siemens AG,,2024-07-31,2024-09-21,Returned,WH-03
+ORD-00190,Steel Coupling,258.0,1057.28,Siemens AG,,2024-07-31,2024-09-21,Returned,WH-03
+ORD-00289,Circuit Breaker,332.0,162.75,Emerson Electric,Eastern Europe,2024-06-06,2024-06-22,Pending,WH-09
+ORD-00136,Conveyor Belt Segment,242.0,54.92,Rockwell Automation,,2025-01-30,2025-02-08,UNKNOWN,WH-04
+ORD-00363,Hydraulic Pump,48.0,1310.9,Honeywell Supply,Central Europe,2023-11-22,2024-01-19,Delivered,WH-03
+ORD-00359,Industrial Sensor,375.0,1944.44,Eaton Corporation,Central Europe,2023-01-06,2023-03-05,Returned,WH-07
+ORD-00030,Microcontroller Unit,200.0,534.08,Emerson Electric,Eastern Europe,2023-12-04,2023-12-31,Cancelled,WH-09
+ORD-00210,Hydraulic Pump,165.0,209.68,Eaton Corporation,Eastern Europe,2024-01-05,2024-02-11,Delivered,WH-08
+ORD-00042,Hydraulic Pump,83.0,1483.76,Rockwell Automation,Asia-Pacific,2023-09-25,2023-11-07,Returned,WH-01
+ORD-00349,Pneumatic Valve,290.0,1486.32,Emerson Electric,North America,2024-08-14,2024-08-27,Returned,WH-02
+ORD-00127,Hydraulic Pump,,1998.75,Emerson Electric,Central Europe,2025-07-24,2025-09-19,In Transit,WH-07
+ORD-00310,Industrial Sensor,257.0,1492.19,Eaton Corporation,Central Europe,2023-10-14,2023-12-06,Pending,WH-07
+ORD-00293,Hydraulic Pump,195.0,935.17,Eaton Corporation,Eastern Europe,2024-10-20,2024-12-11,Delivered,WH-06
+ORD-00087,LED Driver Board,170.0,706.86,Emerson Electric,Eastern Europe,2024-12-05,2025-01-04,Delivered,WH-05
+ORD-00220,Power Supply Module,122.0,1581.79,Bosch Rexroth HU,Eastern Europe,2023-09-06,2023-09-21,Returned,WH-10
+ORD-00333,Heat Exchanger,354.0,1003.43,Eaton Corporation,Central Europe,2025-03-12,2025-04-13,Cancelled,WH-02
+ORD-00341,Circuit Breaker,306.0,780.34,Parker Hannifin,North America,2025-09-29,2025-11-04,Pending,WH-06
+ORD-00218,Power Supply Module,461.0,1428.17,Schneider Electric,Eastern Europe,2023-06-01,2023-07-02,Delivered,WH-02
+ORD-00284,Hydraulic Pump,449.0,290.8,Rockwell Automation,Western Europe,2024-10-18,2024-11-05,Cancelled,WH-05
+ORD-00113,Power Supply Module,443.0,144.27,Parker Hannifin,Eastern Europe,2025-11-06,2025-12-26,Returned,WH-05
+ORD-00283,Conveyor Belt Segment,418.0,1833.21,TE Connectivity,Eastern Europe,2025-10-28,2025-11-18,Returned,WH-10
+ORD-00025,Pneumatic Valve,414.0,817.08,Schneider Electric,Central Europe,2025-08-26,2025-09-13,Cancelled,WH-06
+ORD-00297,Pneumatic Valve,495.0,1448.5,Emerson Electric,Asia-Pacific,2024-11-22,2024-12-11,In Transit,WH-06
+ORD-00027,Conveyor Belt Segment,98.0,1074.89,Siemens AG,Asia-Pacific,2023-08-12,2023-08-30,In Transit,WH-05
+ORD-00193,Pneumatic Valve,453.0,702.42,Bosch Rexroth HU,Asia-Pacific,2024-03-30,2024-05-24,,WH-07
+ORD-00263,Circuit Breaker,405.0,593.57,ABB Limited,Western Europe,2024-01-17,2024-01-20,Returned,WH-07
+ORD-00379,Industrial Sensor,159.0,1398.86,ABB Limited,Central Europe,11.03.2025,2025-04-20,In Transit,WH-02
+ORD-00110,Power Supply Module,160.0,1103.92,Rockwell Automation,Asia-Pacific,2024-05-05,2024-06-22,Pending,WH-04
+ORD-00445,Circuit Breaker,354.0,478.97,Emerson Electric,,2025-03-21,2025-05-19,Delivered,WH-01
+ORD-00343,Industrial Sensor,123.0,614.23,Siemens AG,Eastern Europe,2023-10-02,2023-10-25,delivered,WH-09
+ORD-00205,Pneumatic Valve,19.0,590.42,Bosch Rexroth HU,Western Europe,2023-05-10,2023-06-27,Pending,WH-06
+ORD-00006,LED Driver Board,151.0,1659.66,TE Connectivity,Eastern Europe,2025-02-14,2025-02-22,Returned,WH-04
+ORD-00207,Microcontroller Unit,444.0,1313.18,Honeywell Supply,Central Europe,2025-01-01,2025-02-28,Delivered,WH-07
+ORD-00153,Steel Coupling,161.0,1331.89,,Western Europe,2023-07-14,2023-08-06,Cancelled,WH-02
+ORD-00416,Circuit Breaker,470.0,1230.2,Siemens AG,Eastern Europe,2025-09-05,2025-09-08,In Transit,WH-06
+ORD-00086,Conveyor Belt Segment,157.0,1329.6,,Asia-Pacific,2024-03-29,2024-04-26,Returned,WH-09
+ORD-00031,Conveyor Belt Segment,152.0,439.31,Bosch Rexroth HU,North America,2025-09-23,2025-10-05,Returned,WH-01
+ORD-00342,Pneumatic Valve,317.0,349.19,Honeywell Supply,North America,2024-12-21,2025-02-16,Returned,WH-02
+ORD-00266,Circuit Breaker,355.0,-209.87,Schneider Electric,Asia-Pacific,2023-01-24,,Delivered,WH-03
+ORD-00230,Hydraulic Pump,248.0,493.53,Parker Hannifin,Eastern Europe,2024-08-16,2024-09-29,Cancelled,WH-02
+ORD-00252,Hydraulic Pump,,418.52,Emerson Electric,Eastern Europe,2024-04-05,2024-04-27,Cancelled,WH-06
+ORD-00256,Microcontroller Unit,343.0,1810.84,ABB Limited,Western Europe,2024-05-05,2024-05-23,Pending,WH-02
+ORD-00132,Power Supply Module,403.0,1081.12,Eaton Corporation,North America,2023-12-26,2024-01-10,Returned,WH-05
+ORD-00362,Power Supply Module,226.0,915.75,Parker Hannifin,Western Europe,2023-02-03,2023-02-13,In Transit,WH-05
+ORD-00130,Conveyor Belt Segment,318.0,505.0,Siemens AG,Central Europe,2024-03-24,2024-05-06,Pending,WH-05
+ORD-00105,Pneumatic Valve,497.0,187.03,Eaton Corporation,Asia-Pacific,2025-06-11,2025-07-24,Delivered,WH-06
+ORD-00331,Circuit Breaker,495.0,1593.48,Schneider Electric,Central Europe,2025-03-29,2025-05-19,Pending,WH-05
+ORD-00097,Conveyor Belt Segment,89.0,1106.22,Siemens AG,Central Europe,2023-06-16,2023-06-29,delivered,WH-08
+ORD-00084,Microcontroller Unit,265.0,1896.38,Schneider Electric,Western Europe,2024-07-19,2024-08-26,Cancelled,WH-08
+ORD-00185,Power Supply Module,,595.11,Schneider Electric,North America,04/08/2024,2024-04-19,Returned,WH-09
+ORD-00173,Heat Exchanger,390.0,1161.04,TE Connectivity,North America,2025-08-08,2025-09-28,Delivered,WH-06
+ORD-00227,Power Supply Module,304.0,1883.51,Siemens AG,Western Europe,2025-10-26,2025-12-09,Returned,WH-10
+ORD-00065,LED Driver Board,42.0,281.06,ABB Limited,Asia-Pacific,2024-10-16,2024-12-15,In Transit,WH-04
+ORD-00017,Hydraulic Pump,431.0,1279.7,TE Connectivity,Western Europe,"August 06, 2023",2023-10-03,In Transit,WH-06
+ORD-00011,Pneumatic Valve,203.0,1769.94,Emerson Electric,Western Europe,2024-10-06,2024-10-22,Delivered,WH-03
+ORD-00378,Industrial Sensor,159.0,162.65,ABB Limited,Western Europe,2023-11-09,2023-11-29,Returned,WH-06
+ORD-00138,Pneumatic Valve,60.0,198.9,Rockwell Automation,Western Europe,2023-03-18,,Cancelled,WH-08
+ORD-00004,Hydraulic Pump,80.0,434.55,Eaton Corporation,Central Europe,2025-05-15,2025-06-08,Pending,WH-07
+ORD-00443,LED Driver Board,,691.02,Parker Hannifin,Eastern Europe,2024-08-08,2024-10-05,Cancelled,WH-08
+ORD-00404,Industrial Sensor,102.0,1805.48,Emerson Electric,Western Europe,2023-06-03,2023-06-07,Pending,WH-06
+ORD-00085,Pneumatic Valve,331.0,1425.13,Emerson Electric,Central Europe,2024-05-07,,Pending,WH-05
+ORD-00372,Microcontroller Unit,435.0,1694.9,Honeywell Supply,Western Europe,2024-08-06,2024-09-27,Returned,WH-10
+ORD-00427,Circuit Breaker,88.0,1776.42,Siemens AG,Central Europe,2023-08-03,2023-08-10,Returned,WH-02
+ORD-00438,Heat Exchanger,347.0,1965.6,Siemens AG,Central Europe,2025-11-24,2026-01-17,Cancelled,WH-03
+ORD-00384,Microcontroller Unit,256.0,1719.42,Siemens AG,Eastern Europe,2025-11-12,2025-12-08,In Transit,WH-05
+ORD-00186,Circuit Breaker,449.0,1533.78,Siemens AG,North America,2023-03-19,2023-05-03,Cancelled,WH-03
+ORD-00390,Circuit Breaker,103.0,586.73,Honeywell Supply,North America,2025-07-24,2025-07-27,In Transit,WH-08
+ORD-00373,Steel Coupling,152.0,1294.11,ABB Limited,Asia-Pacific,2025-11-09,2025-11-24,Cancelled,WH-02
+ORD-00385,Heat Exchanger,346.0,1446.94,ABB Limited,North America,2023-07-30,2023-09-28,Pending,WH-01
+ORD-00213,Power Supply Module,35.0,475.81,Eaton Corporation,Eastern Europe,2025-06-16,2025-06-21,Cancelled,WH-10
+ORD-00114,Hydraulic Pump,429.0,1175.94,Emerson Electric,Western Europe,2023-01-06,2023-01-27,Cancelled,WH-09
+ORD-00039,Industrial Sensor,481.0,1756.86,Honeywell Supply,Central Europe,2024-09-05,2024-10-20,Pending,WH-09
+ORD-00096,Heat Exchanger,31.0,1221.21,Schneider Electric,Western Europe,2024-09-17,2024-10-26,In Transit,WH-05
+ORD-00315,Industrial Sensor,3.0,1886.21,Emerson Electric,Eastern Europe,2025-01-08,2025-01-17,Delivered,WH-02
+ORD-00332,LED Driver Board,286.0,1163.13,TE Connectivity,Western Europe,2024-03-30,2024-05-04,Cancelled,WH-06
+ORD-00209,LED Driver Board,137.0,1603.29,Parker Hannifin,Central Europe,2025-01-22,2025-03-17,Cancelled,WH-10
+ORD-00336,Hydraulic Pump,23.0,1621.32,Schneider Electric,Central Europe,2024-10-15,2024-10-22,Delivered,WH-02
+ORD-00156,Industrial Sensor,296.0,1017.29,Siemens AG,Asia-Pacific,2024-10-01,,In Transit,WH-02
+ORD-00038,Power Supply Module,225.0,1668.32,Honeywell Supply,North America,2025-01-26,,Returned,WH-01
+ORD-00048,Conveyor Belt Segment,115.0,52.21,ABB Limited,Asia-Pacific,2024-12-17,2025-01-08,Delivered,WH-05
+ORD-00046,Steel Coupling,,362.82,Eaton Corporation,Asia-Pacific,2023-12-29,2024-02-26,In Transit,WH-05
+ORD-00054,Steel Coupling,357.0,594.83,Siemens AG,Western Europe,2025-04-16,2025-05-09,Cancelled,WH-07
+ORD-00043,Power Supply Module,280.0,76.88,Eaton Corporation,North America,2023-08-18,2023-08-25,Returned,WH-03
+ORD-00243,Heat Exchanger,458.0,1033.43,Eaton Corporation,North America,2025-07-24,2025-08-05,Delivered,WH-03
+ORD-00324,Hydraulic Pump,377.0,1391.44,Emerson Electric,North America,2025-03-26,2025-04-18,In Transit,WH-06
+ORD-00255,LED Driver Board,139.0,1866.38,Honeywell Supply,Western Europe,2024-03-14,2024-03-29,Pending,WH-10
+ORD-00178,Industrial Sensor,416.0,1798.76,Eaton Corporation,Central Europe,2023-05-07,2023-06-07,Returned,WH-03
+ORD-00351,Industrial Sensor,377.0,1660.99,ABB Limited,Eastern Europe,2024-03-23,2024-04-22,Pending,WH-08
+ORD-00276,Power Supply Module,393.0,1284.84,Parker Hannifin,Eastern Europe,2024-01-04,2024-02-25,Cancelled,WH-08
+ORD-00151,LED Driver Board,151.0,910.16,TE Connectivity,Asia-Pacific,2025-02-19,2025-04-01,Pending,WH-02
+ORD-00154,Industrial Sensor,48.0,866.59,Eaton Corporation,Western Europe,2023-07-06,2023-08-31,Returned,WH-01
+ORD-00253,Industrial Sensor,294.0,1354.86,Parker Hannifin,Asia-Pacific,2024-07-14,2024-08-04,Delivered,WH-03
+ORD-00149,Steel Coupling,,1373.76,Emerson Electric,Asia-Pacific,2023-05-05,2023-06-07,Pending,WH-02
+ORD-00044,Microcontroller Unit,158.0,732.48,Bosch Rexroth HU,Eastern Europe,2025-05-30,2025-06-10,In Transit,WH-04
+ORD-00307,Heat Exchanger,,545.83,Schneider Electric,Eastern Europe,2024-04-15,2024-05-01,Returned,WH-10
+ORD-00007,Conveyor Belt Segment,396.0,582.33,Schneider Electric,Western Europe,2023-05-23,2023-05-28,Pending,WH-07
+ORD-00448,Conveyor Belt Segment,468.0,1648.82,Emerson Electric,North America,2024-01-20,2024-02-20,Delivered,WH-01
+ORD-00080,Power Supply Module,223.0,356.39,,Eastern Europe,2025-07-30,2025-09-16,Returned,WH-09
+ORD-00094,Conveyor Belt Segment,61.0,-354.11,Parker Hannifin,North America,2024-09-14,2024-09-22,Returned,WH-10
+ORD-00280,Conveyor Belt Segment,480.0,1751.04,Schneider Electric,Central Europe,2023-11-14,2023-12-04,Cancelled,WH-10
+ORD-00063,Power Supply Module,381.0,1723.68,Emerson Electric,Eastern Europe,2025-07-02,2025-08-31,In Transit,WH-05
+ORD-00386,Microcontroller Unit,242.0,731.13,Siemens AG,Western Europe,2023-01-26,2023-02-13,Pending,WH-09
+ORD-00377,Steel Coupling,217.0,1405.11,Schneider Electric,North America,2025-10-23,2025-12-14,Returned,WH-10
+ORD-00325,Steel Coupling,187.0,232.21,TE Connectivity,Western Europe,2025-02-09,2025-03-01,Returned,WH-09
+ORD-00120,LED Driver Board,195.0,1908.51,Emerson Electric,North America,2024-11-03,2024-12-30,Pending,WH-10
+ORD-00015,Industrial Sensor,350.0,1770.15,Honeywell Supply,Eastern Europe,2023-01-24,2023-03-11,Pending,WH-05
+ORD-00135,Hydraulic Pump,275.0,251.56,Eaton Corporation,Eastern Europe,2025-03-19,2025-03-22,Returned,WH-07
+ORD-00308,Circuit Breaker,9.0,1923.13,TE Connectivity,Western Europe,2023-03-09,2023-03-23,Cancelled,WH-02
+ORD-00021,Heat Exchanger,217.0,1928.9,Rockwell Automation,Western Europe,2025-12-16,2026-02-12,Delivered,WH-07
+ORD-00048,Conveyor Belt Segment,115.0,52.21,ABB Limited,Asia-Pacific,2024-12-17,2025-01-08,Delivered,WH-05
+ORD-00214,Power Supply Module,,902.6,Eaton Corporation,,2023-03-08,2023-04-18,Cancelled,WH-02
+ORD-00222,Steel Coupling,394.0,821.82,TE Connectivity,Central Europe,2025-09-07,2025-10-13,In Transit,WH-06
+ORD-00124,Steel Coupling,318.0,1367.85,Emerson Electric,North America,2023-06-11,2023-07-23,In Transit,WH-04
+ORD-00010,Microcontroller Unit,413.0,634.33,Honeywell Supply,Central Europe,2023-04-25,2023-05-12,In Transit,WH-10
+ORD-00009,Conveyor Belt Segment,84.0,927.21,Honeywell Supply,North America,2023-12-17,2024-01-23,In Transit,WH-06
+ORD-00322,Circuit Breaker,431.0,1242.28,Eaton Corporation,Asia-Pacific,2023-01-14,2023-02-11,Delivered,WH-07
+ORD-00428,Heat Exchanger,458.0,968.06,Bosch Rexroth HU,Asia-Pacific,2024-11-23,2025-01-03,In Transit,WH-10
+ORD-00411,Pneumatic Valve,272.0,718.08,TE Connectivity,Western Europe,2023-04-30,,In Transit,WH-02
+ORD-00069,Conveyor Belt Segment,140.0,874.49,Bosch Rexroth HU,Asia-Pacific,2024-03-27,2024-04-30,Delivered,WH-07
+ORD-00129,Pneumatic Valve,427.0,1808.79,Honeywell Supply,Western Europe,2023-04-11,2023-05-22,Returned,WH-06
+ORD-00216,LED Driver Board,199.0,1827.52,Schneider Electric,Eastern Europe,01/17/2024,2024-02-20,Delivered,WH-08
+ORD-00128,Hydraulic Pump,359.0,593.99,,Eastern Europe,2025-01-05,2025-02-13,Pending,WH-10
+ORD-00251,Hydraulic Pump,313.0,970.94,ABB Limited,Eastern Europe,2024-12-26,2025-02-10,Returned,WH-05
+ORD-00002,Microcontroller Unit,48.0,441.18,Rockwell Automation,North America,2025-05-14,2025-05-19,Pending,WH-09
+ORD-00177,Heat Exchanger,334.0,380.54,TE Connectivity,Asia-Pacific,2023-03-26,2023-04-26,Returned,WH-03
+ORD-00163,Steel Coupling,57.0,570.08,TE Connectivity,Asia-Pacific,2023-08-22,2023-09-16,UNKNOWN,WH-05
+ORD-00337,Conveyor Belt Segment,100000.0,353.03,Siemens AG,Eastern Europe,2023-12-03,2024-01-22,Returned,WH-07
+ORD-00368,Power Supply Module,329.0,1985.92,Siemens AG,Central Europe,2023-10-08,2023-11-04,Returned,WH-10
+ORD-00271,Heat Exchanger,275.0,303.96,Eaton Corporation,North America,2025-11-01,2025-11-16,Cancelled,WH-02
+ORD-00191,Pneumatic Valve,448.0,745.57,Schneider Electric,North America,2024-05-27,2024-06-02,Pending,WH-05
+ORD-00116,Steel Coupling,120.0,1712.75,Parker Hannifin,Central Europe,2024-05-04,2024-06-12,Delivered,WH-08
+ORD-00075,Conveyor Belt Segment,239.0,1400.43,,Western Europe,2023-08-23,2023-10-01,Returned,WH-10
+ORD-00435,Hydraulic Pump,289.0,127.97,Schneider Electric,Central Europe,2024-06-23,2024-07-10,Delivered,WH-09
+ORD-00348,Microcontroller Unit,408.0,1523.31,Honeywell Supply,Central Europe,2023-06-19,2023-07-28,Delivered,WH-04
+ORD-00288,Steel Coupling,,835.93,Rockwell Automation,Western Europe,2023-04-29,2023-06-06,Cancelled,WH-04
+ORD-00262,Hydraulic Pump,99.0,1618.58,Eaton Corporation,Western Europe,2025-10-29,2025-11-30,Cancelled,WH-05
+ORD-00345,Power Supply Module,251.0,581.23,Siemens AG,Eastern Europe,2023-12-21,2024-01-28,Cancelled,WH-10
+ORD-00109,LED Driver Board,68.0,1855.71,Emerson Electric,Asia-Pacific,2024-02-21,2024-03-12,N/A,WH-01
+ORD-00298,LED Driver Board,251.0,372.18,Rockwell Automation,Central Europe,2023-12-13,2023-12-24,Returned,WH-01
+ORD-00117,Power Supply Module,254.0,1929.82,Siemens AG,North America,2025-02-19,2025-03-18,Returned,WH-06
+ORD-00189,Pneumatic Valve,463.0,1671.05,Eaton Corporation,North America,2024-09-25,2024-11-18,Cancelled,WH-08
+ORD-00403,Conveyor Belt Segment,422.0,-228.69,Schneider Electric,North America,31.03.2024,2024-04-11,Returned,WH-05
+ORD-00194,Conveyor Belt Segment,198.0,1989.08,Eaton Corporation,Western Europe,2025-10-25,2025-11-20,Pending,WH-06
+ORD-00022,LED Driver Board,232.0,246.4,ABB Limited,Central Europe,2025-02-03,2025-03-06,delivered,WH-01
+ORD-00275,Microcontroller Unit,479.0,1788.97,Emerson Electric,Central Europe,2023-05-11,2023-06-17,Delivered,WH-07
+ORD-00200,Steel Coupling,96.0,1330.42,Schneider Electric,North America,2024-05-07,2024-06-15,Delivered,WH-02
+ORD-00169,Circuit Breaker,46.0,876.24,Schneider Electric,Western Europe,2025-07-31,2025-09-25,Cancelled,WH-10
+ORD-00292,Pneumatic Valve,469.0,-160.68,TE Connectivity,Western Europe,2023-08-29,2023-10-18,Cancelled,WH-04
+ORD-00299,Microcontroller Unit,392.0,17.74,Siemens AG,Western Europe,2023-06-02,2023-07-27,Pending,WH-03
+ORD-00005,Circuit Breaker,310.0,532.72,Bosch Rexroth HU,,2023-07-18,2023-08-12,Returned,WH-02
+ORD-00166,Conveyor Belt Segment,257.0,1119.65,Eaton Corporation,Central Europe,2025-12-26,2026-02-12,Cancelled,WH-01
+ORD-00430,Hydraulic Pump,153.0,478.91,Bosch Rexroth HU,,2024-06-27,2024-08-11,Returned,WH-09
+ORD-00231,Pneumatic Valve,213.0,971.08,ABB Limited,Eastern Europe,2023-05-03,2023-05-16,Returned,WH-03
+ORD-00035,Conveyor Belt Segment,343.0,1433.8,ABB Limited,Eastern Europe,2024-10-09,2024-10-28,Cancelled,WH-03
+ORD-00395,Industrial Sensor,-999.0,271.36,Parker Hannifin,Central Europe,2023-06-23,2023-08-02,Returned,WH-10
+ORD-00172,Hydraulic Pump,102.0,351.13,Siemens AG,Central Europe,2023-07-30,2023-08-11,In Transit,WH-08
+ORD-00327,Steel Coupling,345.0,1001.11,,Western Europe,2023-05-22,2023-07-16,Delivered,WH-03
+ORD-00381,Microcontroller Unit,84.0,995.34,Eaton Corporation,North America,2023-10-09,2023-11-25,Returned,WH-05
+ORD-00300,LED Driver Board,234.0,749.54,TE Connectivity,North America,2023-01-19,2023-02-04,Cancelled,WH-08
+ORD-00093,Pneumatic Valve,38.0,1156.16,Bosch Rexroth HU,Western Europe,2023-05-14,2023-06-11,In Transit,WH-10
+ORD-00401,Hydraulic Pump,134.0,1641.08,Siemens AG,Central Europe,2023-04-11,2023-05-27,Cancelled,WH-08
+ORD-00143,Heat Exchanger,106.0,141.88,Rockwell Automation,Western Europe,2024-05-13,2024-05-24,Returned,WH-04
+ORD-00049,Hydraulic Pump,180.0,1284.76,Parker Hannifin,North America,2023-05-23,2023-07-14,Delivered,WH-01
+ORD-00426,Industrial Sensor,410.0,1692.3,Honeywell Supply,Central Europe,2023-11-30,2023-12-31,Delivered,WH-05
+ORD-00122,Hydraulic Pump,463.0,62.75,Eaton Corporation,Central Europe,2023-12-07,2024-01-23,Delivered,WH-06
+ORD-00355,Hydraulic Pump,,1716.74,,,2024-08-15,2024-09-23,Cancelled,WH-01
+ORD-00321,Pneumatic Valve,305.0,1235.25,Emerson Electric,Central Europe,2024-05-20,2024-07-08,In Transit,WH-05
+ORD-00302,LED Driver Board,417.0,1397.23,Parker Hannifin,Western Europe,2024-08-10,2024-08-14,Pending,WH-02
+ORD-00392,Conveyor Belt Segment,278.0,-20.66,Bosch Rexroth HU,Eastern Europe,2025-04-19,2025-04-23,Pending,WH-07
+ORD-00408,Industrial Sensor,144.0,769.12,Parker Hannifin,Western Europe,2025-09-08,,Returned,WH-04
+ORD-00203,Industrial Sensor,396.0,1165.9,Eaton Corporation,Western Europe,2024-05-08,2024-06-26,Pending,WH-06
+ORD-00272,Heat Exchanger,251.0,186.43,Rockwell Automation,Asia-Pacific,2024-02-25,2024-04-13,Pending,WH-08
+ORD-00447,Pneumatic Valve,397.0,1652.52,Honeywell Supply,Asia-Pacific,"September 07, 2024",2024-10-27,Returned,WH-02
+ORD-00360,Conveyor Belt Segment,254.0,540.73,Honeywell Supply,Eastern Europe,2024-03-22,2024-04-21,Returned,WH-10
+ORD-00245,Microcontroller Unit,189.0,665.82,Schneider Electric,Asia-Pacific,2024-09-05,2024-10-08,Returned,WH-05
+ORD-00161,Microcontroller Unit,80.0,319.03,TE Connectivity,Central Europe,2023-06-23,2023-08-21,Pending,WH-05
+ORD-00101,Heat Exchanger,472.0,580.78,Schneider Electric,Asia-Pacific,2024-09-21,2024-11-01,Delivered,WH-07
+ORD-00152,Pneumatic Valve,455.0,460.84,Eaton Corporation,Asia-Pacific,2024-03-16,2024-04-15,Cancelled,WH-07
+ORD-00313,Power Supply Module,349.0,1173.82,Parker Hannifin,Central Europe,2025-02-07,2025-03-09,Returned,WH-05
+ORD-00020,LED Driver Board,393.0,255.89,Emerson Electric,North America,2023-05-22,2023-07-12,In Transit,WH-05
+ORD-00413,Power Supply Module,,476.92,Eaton Corporation,Eastern Europe,2024-12-27,2025-02-21,Returned,WH-01
+ORD-00387,Circuit Breaker,128.0,835.43,Eaton Corporation,Eastern Europe,"May 08, 2025",2025-05-25,Pending,WH-10
+ORD-00444,Power Supply Module,142.0,808.93,TE Connectivity,North America,2025-08-26,2025-08-31,Cancelled,WH-01
+ORD-00029,Conveyor Belt Segment,86.0,815.8,Emerson Electric,Western Europe,2023-01-31,2023-02-08,Cancelled,WH-01
+ORD-00436,Heat Exchanger,117.0,1109.44,Parker Hannifin,North America,2025-04-27,2025-06-17,Cancelled,WH-09
+ORD-00211,Pneumatic Valve,180.0,897.02,Eaton Corporation,North America,2025-05-22,2025-06-04,Cancelled,WH-05
+ORD-00144,Power Supply Module,404.0,1801.56,Bosch Rexroth HU,Eastern Europe,2024-04-22,2024-05-16,In Transit,WH-03
+ORD-00181,LED Driver Board,348.0,776.2,Honeywell Supply,North America,2024-11-06,2024-11-15,In Transit,WH-06
+ORD-00259,Heat Exchanger,119.0,1072.63,,Western Europe,2023-07-03,2023-08-16,Cancelled,WH-03
+ORD-00014,Industrial Sensor,198.0,766.33,Emerson Electric,North America,2025-05-14,2025-06-24,Delivered,WH-09
+ORD-00407,Heat Exchanger,318.0,1235.87,Honeywell Supply,Asia-Pacific,2023-11-01,2023-11-06,Cancelled,WH-09
+ORD-00095,LED Driver Board,195.0,903.78,Emerson Electric,Eastern Europe,2024-04-07,2024-05-29,Returned,WH-07
+ORD-00317,Circuit Breaker,284.0,190.66,TE Connectivity,Eastern Europe,2023-02-23,2023-03-03,Cancelled,WH-01
+ORD-00258,Pneumatic Valve,245.0,1302.82,Honeywell Supply,Eastern Europe,2025-04-13,2025-05-27,Delivered,WH-01
+ORD-00354,Circuit Breaker,273.0,565.76,Rockwell Automation,Western Europe,2023-05-02,2023-06-10,Delivered,WH-05
+ORD-00033,Power Supply Module,36.0,1192.1,ABB Limited,Asia-Pacific,2023-06-14,2023-08-10,Pending,WH-10
+ORD-00217,Hydraulic Pump,356.0,1833.38,Emerson Electric,Western Europe,2024-03-15,2024-04-26,delivered,WH-03
+ORD-00194,Conveyor Belt Segment,198.0,1989.08,Eaton Corporation,Western Europe,2025-10-25,2025-11-20,Pending,WH-06
+ORD-00131,Heat Exchanger,187.0,1466.06,Schneider Electric,Eastern Europe,2025-06-21,2025-06-26,Delivered,WH-07
+ORD-00157,LED Driver Board,189.0,234.2,Honeywell Supply,North America,2024-12-18,2025-02-13,In Transit,WH-07
+ORD-00424,Industrial Sensor,369.0,7.56,Parker Hannifin,,2024-06-09,2024-08-01,Cancelled,WH-03
+ORD-00150,Power Supply Module,34.0,256.75,TE Connectivity,North America,2024-10-21,2024-12-01,Returned,WH-06
+ORD-00422,Power Supply Module,170.0,1491.96,ABB Limited,,2023-08-02,2023-09-05,Delivered,WH-03
+ORD-00339,Heat Exchanger,220.0,780.73,ABB Limited,Western Europe,2024-02-09,2024-03-11,Delivered,WH-02
+ORD-00235,Circuit Breaker,98.0,1527.43,Emerson Electric,North America,2024-11-01,2024-12-10,Cancelled,WH-08
+ORD-00184,Microcontroller Unit,186.0,621.19,ABB Limited,Eastern Europe,2025-11-07,2025-12-03,Cancelled,WH-04
+ORD-00420,Hydraulic Pump,376.0,1378.55,Siemens AG,Western Europe,2023-12-26,2024-01-22,Pending,WH-10
+ORD-00429,Microcontroller Unit,52.0,665.53,ABB Limited,Asia-Pacific,"June 08, 2025",2025-06-21,Returned,WH-09
+ORD-00078,Heat Exchanger,401.0,86.93,Rockwell Automation,Asia-Pacific,2023-09-05,2023-10-28,Delivered,WH-02
+ORD-00367,Industrial Sensor,99999.0,1612.88,Schneider Electric,Eastern Europe,2024-04-13,2024-05-10,Delivered,WH-05
+ORD-00334,Industrial Sensor,60.0,1663.48,Siemens AG,Eastern Europe,2024-08-28,2024-09-26,Delivered,WH-06
+ORD-00204,Power Supply Module,,1559.39,Emerson Electric,Asia-Pacific,2024-11-24,2025-01-18,In Transit,WH-03
+ORD-00374,Heat Exchanger,37.0,1058.93,Bosch Rexroth HU,Eastern Europe,2024-05-08,2024-06-11,Delivered,WH-03
+ORD-00449,Power Supply Module,34.0,625.69,Rockwell Automation,,2025-11-21,2026-01-13,In Transit,WH-09
+ORD-00290,Hydraulic Pump,-1.0,1348.98,TE Connectivity,Central Europe,2024-01-26,2024-02-01,Pending,WH-04
+ORD-00225,Circuit Breaker,479.0,1420.12,Eaton Corporation,North America,2023-12-04,2023-12-17,Delivered,WH-02
+ORD-00286,Steel Coupling,403.0,1051.3,Parker Hannifin,Asia-Pacific,2023-04-07,2023-05-02,In Transit,WH-05
+ORD-00350,LED Driver Board,422.0,-475.61,Rockwell Automation,Central Europe,2023-08-22,2023-09-11,Cancelled,WH-09
+ORD-00437,Conveyor Belt Segment,244.0,601.21,Parker Hannifin,Central Europe,2025-08-30,2025-10-08,Returned,WH-10
+ORD-00405,Pneumatic Valve,26.0,340.14,TE Connectivity,Asia-Pacific,2023-09-08,2023-09-13,Cancelled,WH-08
+ORD-00148,Conveyor Belt Segment,485.0,1232.14,Rockwell Automation,Eastern Europe,2025-07-14,2025-08-18,Cancelled,WH-01
+ORD-00270,LED Driver Board,361.0,726.76,TE Connectivity,Central Europe,2025-12-12,2026-01-12,Pending,WH-09
+ORD-00100,Power Supply Module,466.0,534.94,Siemens AG,Central Europe,2024-04-05,2024-05-19,Pending,WH-03
+ORD-00075,Conveyor Belt Segment,239.0,1400.43,,Western Europe,2023-08-23,2023-10-01,Returned,WH-10
+ORD-00137,Pneumatic Valve,466.0,1403.65,Parker Hannifin,Central Europe,2023-05-10,2023-06-22,In Transit,WH-01
+ORD-00232,Circuit Breaker,376.0,1976.11,Eaton Corporation,Asia-Pacific,2024-10-02,2024-11-29,In Transit,WH-06
+ORD-00391,Pneumatic Valve,396.0,1552.89,Rockwell Automation,Western Europe,2025-01-24,2025-03-05,In Transit,WH-01
+ORD-00076,Power Supply Module,494.0,625.52,TE Connectivity,Central Europe,2023-08-23,2023-10-14,Delivered,WH-10
+ORD-00001,Hydraulic Pump,126.0,450.31,Schneider Electric,North America,2023-08-17,2023-08-21,Pending,WH-10
+ORD-00072,Pneumatic Valve,168.0,678.31,Parker Hannifin,Eastern Europe,2024-11-01,2024-11-17,Cancelled,WH-05
+ORD-00112,Pneumatic Valve,242.0,491.24,Rockwell Automation,,2025-04-30,2025-06-25,Cancelled,WH-04
+ORD-00047,Industrial Sensor,,1744.97,Emerson Electric,Western Europe,2023-11-23,2024-01-15,In Transit,WH-08
+ORD-00032,Microcontroller Unit,300.0,956.19,Rockwell Automation,Western Europe,2024-10-04,2024-10-10,Pending,WH-09
+ORD-00254,Hydraulic Pump,490.0,1429.71,Eaton Corporation,Asia-Pacific,2024-08-17,2024-08-22,Delivered,WH-08
+ORD-00440,Industrial Sensor,45.0,779.26,,North America,2024-06-12,,Delivered,WH-05
+ORD-00195,Circuit Breaker,406.0,296.37,Bosch Rexroth HU,Eastern Europe,2023-07-22,2023-09-16,Cancelled,WH-03
+ORD-00056,Heat Exchanger,311.0,1311.14,Emerson Electric,Asia-Pacific,2025-05-30,2025-07-22,Cancelled,WH-04
+ORD-00036,Circuit Breaker,476.0,1504.97,Schneider Electric,Central Europe,2024-09-06,2024-10-08,Cancelled,WH-10
+ORD-00303,Conveyor Belt Segment,99.0,1241.46,Honeywell Supply,Eastern Europe,2025-12-09,2025-12-21,Delivered,WH-07
+ORD-00158,Hydraulic Pump,15.0,364.93,Honeywell Supply,Eastern Europe,2023-02-23,2023-04-05,Delivered,WH-01
+ORD-00091,Hydraulic Pump,358.0,1888.46,Emerson Electric,Central Europe,04/22/2023,,N/A,WH-10
+ORD-00365,Pneumatic Valve,40.0,269.74,ABB Limited,North America,2023-01-03,2023-01-19,Cancelled,WH-01
+ORD-00335,Conveyor Belt Segment,267.0,968.44,Emerson Electric,Central Europe,2025-07-21,2025-09-12,Cancelled,WH-08
+ORD-00301,LED Driver Board,283.0,825.62,Bosch Rexroth HU,North America,2023-02-02,2023-02-05,Delivered,WH-09
+ORD-00238,Power Supply Module,452.0,532.62,Eaton Corporation,Asia-Pacific,2023-08-09,2023-09-08,Delivered,WH-01
+ORD-00388,LED Driver Board,345.0,1804.37,Siemens AG,Western Europe,"February 02, 2025",2025-02-12,Returned,WH-01
+ORD-00318,Steel Coupling,399.0,173.98,Rockwell Automation,,2024-08-20,2024-09-18,Returned,WH-09
+ORD-00040,Hydraulic Pump,,425.21,Eaton Corporation,Western Europe,2023-11-15,,Delivered,WH-09
+ORD-00089,Heat Exchanger,390.0,1051.65,Honeywell Supply,Central Europe,2025-09-18,2025-10-08,In Transit,WH-05
+ORD-00121,Hydraulic Pump,99999.0,1494.8,Parker Hannifin,Central Europe,2023-05-21,2023-06-08,Pending,WH-08
+ORD-00279,LED Driver Board,218.0,1066.21,ABB Limited,Western Europe,2025-08-06,2025-09-21,Cancelled,WH-06
+ORD-00176,Industrial Sensor,315.0,1190.19,Parker Hannifin,Asia-Pacific,2023-06-07,2023-07-21,Returned,WH-09
+ORD-00223,Pneumatic Valve,349.0,1037.13,Siemens AG,North America,01.06.2023,2023-07-02,Returned,WH-03
+ORD-00221,LED Driver Board,67.0,1225.84,Schneider Electric,Central Europe,25.01.2025,2025-02-26,Delivered,WH-07
+ORD-00107,Industrial Sensor,162.0,508.54,Schneider Electric,Asia-Pacific,2023-03-17,2023-04-18,Returned,WH-01
+ORD-00446,Hydraulic Pump,160.0,564.29,Emerson Electric,Central Europe,2024-11-22,2025-01-16,In Transit,WH-03
+ORD-00326,LED Driver Board,14.0,1906.24,,Western Europe,2024-01-04,2024-02-19,Cancelled,WH-05
+ORD-00357,Power Supply Module,296.0,1266.64,Parker Hannifin,Asia-Pacific,2025-03-15,2025-04-18,Cancelled,WH-02
+ORD-00247,LED Driver Board,323.0,1443.76,Parker Hannifin,Western Europe,2025-09-10,2025-09-23,In Transit,WH-01
+ORD-00082,Pneumatic Valve,125.0,1502.2,TE Connectivity,North America,2024-07-25,2024-09-22,Cancelled,WH-06
+ORD-00281,Conveyor Belt Segment,35.0,206.29,Bosch Rexroth HU,Asia-Pacific,2023-02-02,2023-02-20,Returned,WH-01
+ORD-00125,Hydraulic Pump,236.0,514.38,Bosch Rexroth HU,Asia-Pacific,2025-08-02,2025-09-14,Delivered,WH-09
+ORD-00123,Power Supply Module,126.0,1064.68,TE Connectivity,Western Europe,2025-02-06,2025-03-08,In Transit,WH-03
+ORD-00212,Steel Coupling,187.0,1028.61,Siemens AG,Central Europe,2023-04-28,2023-05-05,In Transit,WH-10
+ORD-00206,Steel Coupling,418.0,1088.35,Honeywell Supply,Central Europe,2024-09-27,2024-11-01,In Transit,WH-05
+ORD-00311,Industrial Sensor,175.0,1212.31,TE Connectivity,,2024-04-20,2024-06-15,Cancelled,WH-06
+ORD-00441,Microcontroller Unit,403.0,1402.32,TE Connectivity,North America,2025-11-30,2026-01-01,Cancelled,WH-02
+ORD-00221,LED Driver Board,67.0,1225.84,Schneider Electric,Central Europe,25.01.2025,2025-02-26,Delivered,WH-07
+ORD-00370,Conveyor Belt Segment,45.0,1793.7,Siemens AG,Central Europe,2025-06-25,2025-08-22,Returned,WH-07
+ORD-00285,LED Driver Board,486.0,1185.38,Siemens AG,Asia-Pacific,2024-07-17,2024-07-23,Returned,WH-08
+ORD-00320,Steel Coupling,142.0,845.1,Emerson Electric,Central Europe,2023-05-10,2023-05-23,Delivered,WH-05
+ORD-00358,LED Driver Board,384.0,560.06,Eaton Corporation,Asia-Pacific,2023-07-10,2023-08-07,Cancelled,WH-06
+ORD-00208,Pneumatic Valve,,1913.18,Eaton Corporation,Western Europe,2025-03-30,2025-05-19,Cancelled,WH-08
+ORD-00383,LED Driver Board,33.0,529.58,TE Connectivity,Central Europe,2025-05-29,2025-06-18,Cancelled,WH-08
+ORD-00261,Hydraulic Pump,233.0,1978.25,Rockwell Automation,North America,2023-08-08,2023-09-01,Cancelled,WH-03
+ORD-00066,Steel Coupling,170.0,1087.51,Parker Hannifin,Central Europe,2023-05-12,2023-06-10,In Transit,WH-07
+ORD-00295,Microcontroller Unit,289.0,1728.85,Siemens AG,Central Europe,2024-10-02,2024-10-31,Delivered,WH-09
+ORD-00179,Pneumatic Valve,225.0,1050.52,,Western Europe,2023-03-22,2023-04-09,Delivered,WH-06
+ORD-00145,Power Supply Module,57.0,1323.81,Bosch Rexroth HU,Western Europe,2024-05-28,,Pending,WH-06
+ORD-00431,Microcontroller Unit,185.0,12.61,Schneider Electric,Eastern Europe,2025-10-02,2025-10-14,Returned,WH-08
+ORD-00237,Microcontroller Unit,145.0,992.31,Emerson Electric,Eastern Europe,2024-12-23,,Returned,WH-01
+ORD-00246,Pneumatic Valve,136.0,1934.31,TE Connectivity,North America,2023-02-24,2023-04-06,In Transit,WH-01
+ORD-00380,Pneumatic Valve,314.0,1219.62,Honeywell Supply,Western Europe,2025-06-08,2025-06-18,Pending,WH-01
+ORD-00014,Industrial Sensor,198.0,766.33,Emerson Electric,North America,2025-05-14,2025-06-24,Delivered,WH-09
+ORD-00244,Hydraulic Pump,304.0,676.07,Rockwell Automation,North America,2025-03-15,2025-04-26,Cancelled,WH-10
+ORD-00034,Heat Exchanger,21.0,1240.67,Parker Hannifin,North America,2024-05-19,2024-06-28,Returned,WH-09
+ORD-00016,Pneumatic Valve,2.0,1907.86,Honeywell Supply,North America,2025-06-09,2025-06-22,In Transit,WH-09
+ORD-00250,Pneumatic Valve,270.0,756.77,Siemens AG,Asia-Pacific,2024-10-27,2024-12-11,Returned,WH-06
+ORD-00233,Industrial Sensor,164.0,487.27,Schneider Electric,Eastern Europe,2025-11-20,2025-12-28,Cancelled,WH-04
+ORD-00167,Pneumatic Valve,472.0,160.34,Eaton Corporation,North America,2025-06-12,2025-06-16,Cancelled,WH-10
+ORD-00170,Industrial Sensor,203.0,1741.7,Eaton Corporation,Western Europe,2025-03-31,2025-05-06,Delivered,WH-03
+ORD-00094,Conveyor Belt Segment,61.0,-354.11,Parker Hannifin,North America,2024-09-14,2024-09-22,Returned,WH-10
+ORD-00353,Heat Exchanger,324.0,859.19,TE Connectivity,Western Europe,2024-12-19,2025-02-15,In Transit,WH-04
+ORD-00187,Heat Exchanger,415.0,1805.8,Emerson Electric,Central Europe,2023-11-29,2023-12-13,Cancelled,WH-06
+ORD-00133,Pneumatic Valve,496.0,1613.94,Eaton Corporation,Central Europe,2023-12-03,2023-12-22,Cancelled,WH-02
+ORD-00434,Steel Coupling,190.0,377.23,Bosch Rexroth HU,Eastern Europe,2024-01-14,2024-02-09,Cancelled,WH-08
+ORD-00439,Conveyor Belt Segment,65.0,90.14,Schneider Electric,Asia-Pacific,2023-12-09,2023-12-25,In Transit,WH-03
+ORD-00115,Circuit Breaker,283.0,1526.93,Parker Hannifin,Asia-Pacific,2025-09-18,2025-10-13,Delivered,WH-04
+ORD-00119,Pneumatic Valve,401.0,1938.56,Eaton Corporation,North America,2023-11-13,2023-11-20,Cancelled,WH-02
+ORD-00241,Circuit Breaker,407.0,1973.64,Rockwell Automation,Eastern Europe,2023-07-18,2023-08-15,In Transit,WH-04
+ORD-00340,LED Driver Board,,734.76,ABB Limited,Asia-Pacific,2023-07-28,2023-09-20,Pending,WH-05
+ORD-00330,Conveyor Belt Segment,337.0,1331.06,Siemens AG,North America,2023-08-12,2023-10-03,Pending,WH-10
+ORD-00442,Power Supply Module,291.0,1177.93,Schneider Electric,Central Europe,2025-04-28,2025-05-10,Returned,WH-02
+ORD-00234,Microcontroller Unit,,1891.04,TE Connectivity,Asia-Pacific,2023-10-16,2023-10-25,In Transit,WH-03
+ORD-00050,Hydraulic Pump,92.0,1163.28,Honeywell Supply,Central Europe,2023-08-25,2023-10-23,Pending,WH-10
+ORD-00417,Power Supply Module,301.0,1410.87,Siemens AG,Central Europe,02.05.2023,2023-05-06,Returned,WH-06
+ORD-00028,Industrial Sensor,227.0,1617.0,Rockwell Automation,Central Europe,2025-08-05,2025-08-23,Pending,WH-09
+ORD-00433,Steel Coupling,242.0,980.75,Honeywell Supply,Central Europe,2024-09-23,2024-11-15,Returned,WH-07
+ORD-00291,Conveyor Belt Segment,446.0,1814.53,Honeywell Supply,Central Europe,2024-03-20,2024-04-22,In Transit,WH-04
+ORD-00239,Heat Exchanger,288.0,393.34,Rockwell Automation,Eastern Europe,2025-03-31,2025-04-06,Pending,WH-07
+ORD-00041,Microcontroller Unit,48.0,1270.4,Honeywell Supply,Central Europe,2025-09-27,2025-10-16,Pending,WH-06
+ORD-00274,Microcontroller Unit,382.0,439.71,Schneider Electric,Central Europe,2025-03-21,2025-04-09,Cancelled,WH-06
+ORD-00102,LED Driver Board,253.0,878.33,TE Connectivity,Central Europe,2024-07-11,2024-08-15,Cancelled,WH-06
+ORD-00418,Steel Coupling,301.0,206.56,Honeywell Supply,Eastern Europe,2023-05-29,2023-06-24,In Transit,WH-03
+ORD-00369,Power Supply Module,226.0,705.62,ABB Limited,Western Europe,2023-01-18,2023-03-01,Cancelled,WH-10
+ORD-00183,Steel Coupling,330.0,1584.37,Siemens AG,North America,2024-09-26,2024-11-03,Pending,WH-07
+ORD-00316,Power Supply Module,221.0,900.44,Rockwell Automation,North America,2023-09-29,2023-10-07,Cancelled,WH-02
+ORD-00229,Conveyor Belt Segment,393.0,1146.41,TE Connectivity,Central Europe,2024-06-26,,Cancelled,WH-09
+ORD-00323,Circuit Breaker,309.0,1894.82,ABB Limited,Asia-Pacific,2023-10-06,2023-10-28,Delivered,WH-03
+ORD-00304,Steel Coupling,236.0,1132.18,ABB Limited,Eastern Europe,2023-06-11,2023-07-07,Pending,WH-01
+ORD-00306,Steel Coupling,331.0,1569.83,TE Connectivity,,2025-10-20,2025-12-16,Returned,WH-01
+ORD-00092,Pneumatic Valve,226.0,684.71,Bosch Rexroth HU,Eastern Europe,2024-08-05,2024-09-07,Cancelled,WH-02
+ORD-00201,LED Driver Board,403.0,1976.72,Rockwell Automation,Central Europe,2025-12-13,2026-01-19,Cancelled,WH-08
+ORD-00219,Hydraulic Pump,436.0,319.22,Siemens AG,Eastern Europe,2024-08-17,2024-10-16,Returned,WH-04
+ORD-00419,Pneumatic Valve,333.0,637.98,Rockwell Automation,North America,2025-06-13,2025-08-05,Delivered,WH-04
+ORD-00028,Industrial Sensor,227.0,1617.0,Rockwell Automation,Central Europe,2025-08-05,2025-08-23,Pending,WH-09
+ORD-00197,Industrial Sensor,398.0,579.76,Honeywell Supply,Central Europe,2025-12-16,2026-01-15,Pending,WH-04
+ORD-00055,Heat Exchanger,155.0,815.12,Bosch Rexroth HU,Eastern Europe,2023-12-23,2024-02-03,delivered,WH-04
+ORD-00364,Hydraulic Pump,,1400.39,ABB Limited,Asia-Pacific,2023-04-17,2023-05-15,Pending,WH-02
+ORD-00346,Circuit Breaker,488.0,24.12,Siemens AG,Western Europe,2023-04-20,2023-06-17,Cancelled,WH-09
+ORD-00242,LED Driver Board,21.0,95.38,Siemens AG,Eastern Europe,2025-11-08,2025-12-06,Cancelled,WH-09
+ORD-00015,Industrial Sensor,350.0,1770.15,Honeywell Supply,Eastern Europe,2023-01-24,2023-03-11,Pending,WH-05
+ORD-00067,Heat Exchanger,485.0,1392.57,TE Connectivity,Asia-Pacific,2025-03-08,2025-05-07,Cancelled,WH-01
+ORD-00026,Pneumatic Valve,443.0,1459.51,Schneider Electric,Central Europe,2025-05-17,2025-06-15,Cancelled,WH-06
+ORD-00106,Power Supply Module,169.0,826.23,Emerson Electric,Eastern Europe,2023-08-03,2023-09-29,Cancelled,WH-09
+ORD-00277,Industrial Sensor,350.0,-122.63,Rockwell Automation,Western Europe,2025-02-12,2025-03-11,Delivered,WH-02
+ORD-00174,Industrial Sensor,241.0,887.21,Honeywell Supply,Eastern Europe,2023-11-06,2023-12-07,Returned,WH-01
+ORD-00314,Industrial Sensor,43.0,539.6,Parker Hannifin,Western Europe,2024-05-19,2024-07-06,Cancelled,WH-06
+ORD-00406,Steel Coupling,89.0,711.12,Siemens AG,Eastern Europe,2023-03-02,2023-03-29,Delivered,WH-08
+ORD-00037,LED Driver Board,110.0,1014.24,Siemens AG,Eastern Europe,2023-07-24,2023-07-31,Pending,WH-04
+ORD-00088,Conveyor Belt Segment,162.0,243.51,Rockwell Automation,Western Europe,2024-04-17,2024-04-27,In Transit,WH-04
+ORD-00126,Pneumatic Valve,484.0,694.4,TE Connectivity,Eastern Europe,2023-11-20,2023-11-27,Cancelled,WH-05
+ORD-00294,Pneumatic Valve,239.0,201.72,Emerson Electric,Eastern Europe,2025-11-16,,In Transit,WH-06
+ORD-00146,Circuit Breaker,9.0,352.62,,Western Europe,2024-05-02,2024-06-11,Cancelled,WH-09
+ORD-00361,Pneumatic Valve,404.0,690.76,Bosch Rexroth HU,Central Europe,2023-09-25,2023-11-03,Pending,WH-08
+ORD-00073,Microcontroller Unit,384.0,1081.14,Eaton Corporation,Western Europe,06/17/2023,2023-07-20,Pending,WH-01
+ORD-00139,LED Driver Board,215.0,1176.74,Siemens AG,Asia-Pacific,2025-01-29,2025-03-15,Pending,WH-08
+ORD-00397,Conveyor Belt Segment,39.0,1887.39,Siemens AG,North America,2025-07-16,2025-08-05,Pending,WH-03
+ORD-00282,Microcontroller Unit,100000.0,880.73,Rockwell Automation,Western Europe,2024-05-16,2024-07-05,Pending,WH-03
+ORD-00180,Steel Coupling,397.0,680.04,TE Connectivity,Central Europe,2024-08-02,2024-08-29,Delivered,WH-02
+ORD-00278,Steel Coupling,271.0,259.06,ABB Limited,Central Europe,2024-01-01,2024-02-07,Pending,WH-05
+ORD-00432,Microcontroller Unit,100000.0,345.81,Honeywell Supply,Central Europe,02/13/2024,2024-02-22,Cancelled,WH-02
+ORD-00415,Microcontroller Unit,47.0,117.06,TE Connectivity,Western Europe,2023-12-26,2024-01-29,Pending,WH-09
+ORD-00264,Circuit Breaker,45.0,804.66,Schneider Electric,Western Europe,2025-05-25,2025-06-29,In Transit,WH-08
+ORD-00287,LED Driver Board,243.0,485.73,ABB Limited,Eastern Europe,2025-02-09,2025-02-23,,WH-08
+ORD-00319,Steel Coupling,87.0,281.99,Honeywell Supply,Eastern Europe,2023-12-14,2024-01-29,Cancelled,WH-03
+ORD-00008,Circuit Breaker,84.0,743.51,ABB Limited,Eastern Europe,2024-07-23,2024-08-24,Pending,WH-10
+ORD-00059,Industrial Sensor,234.0,831.81,TE Connectivity,Western Europe,2025-08-31,2025-10-12,Cancelled,WH-08
+ORD-00141,Circuit Breaker,279.0,1803.88,Eaton Corporation,Central Europe,2023-07-23,2023-09-07,Cancelled,WH-05
+ORD-00081,Steel Coupling,423.0,1463.4,Honeywell Supply,Eastern Europe,2025-09-17,2025-10-19,In Transit,WH-02
+ORD-00077,Conveyor Belt Segment,39.0,1186.24,ABB Limited,Central Europe,2025-02-07,2025-03-07,Delivered,WH-10
+ORD-00140,Microcontroller Unit,354.0,744.21,Emerson Electric,Asia-Pacific,2025-04-15,2025-05-05,In Transit,WH-06
+ORD-00061,Microcontroller Unit,286.0,502.15,Schneider Electric,Asia-Pacific,2025-11-26,2025-12-28,In Transit,WH-08
+ORD-00344,Heat Exchanger,71.0,1151.74,Parker Hannifin,Western Europe,2025-03-06,2025-04-04,Cancelled,WH-09
+ORD-00226,LED Driver Board,141.0,254.71,Honeywell Supply,North America,2024-05-28,2024-06-12,Returned,WH-02
+ORD-00396,Power Supply Module,122.0,586.89,,Asia-Pacific,2023-05-08,2023-06-07,Delivered,WH-06
+ORD-00164,Steel Coupling,307.0,114.29,ABB Limited,Eastern Europe,2023-04-04,2023-04-21,In Transit,WH-03
+ORD-00273,Steel Coupling,234.0,1130.0,Rockwell Automation,Asia-Pacific,2023-09-28,2023-11-02,Delivered,WH-01
+ORD-00142,Pneumatic Valve,47.0,1327.22,TE Connectivity,Central Europe,2024-01-24,2024-02-03,Pending,WH-06
+ORD-00147,Industrial Sensor,244.0,899.31,Eaton Corporation,North America,2023-08-21,2023-10-10,Returned,WH-02
+ORD-00099,Heat Exchanger,339.0,1608.79,,Asia-Pacific,2024-06-25,2024-08-17,Pending,WH-09
+ORD-00103,Industrial Sensor,118.0,1924.01,TE Connectivity,North America,2024-05-27,2024-05-31,Pending,WH-05
+ORD-00165,Circuit Breaker,62.0,20.42,Parker Hannifin,Western Europe,2024-06-07,2024-06-28,In Transit,WH-07
+ORD-00108,Microcontroller Unit,97.0,1039.29,TE Connectivity,Asia-Pacific,2025-08-04,2025-09-02,Cancelled,WH-01
+ORD-00328,Steel Coupling,38.0,900.89,TE Connectivity,Asia-Pacific,2025-05-16,2025-07-08,Returned,WH-07
+ORD-00171,Industrial Sensor,272.0,1022.35,Eaton Corporation,Eastern Europe,2023-06-06,2023-07-11,In Transit,WH-04
+ORD-00389,Pneumatic Valve,444.0,568.2,Honeywell Supply,Eastern Europe,2025-04-01,2025-04-08,Pending,WH-09
+ORD-00296,Power Supply Module,101.0,663.08,Parker Hannifin,North America,2025-05-05,2025-05-26,In Transit,WH-08
+ORD-00012,LED Driver Board,276.0,529.17,TE Connectivity,Asia-Pacific,2024-05-20,2024-07-09,Returned,WH-07
+ORD-00423,Circuit Breaker,229.0,27.73,ABB Limited,Western Europe,2023-07-01,2023-08-25,Pending,WH-06
+ORD-00382,Power Supply Module,384.0,1563.34,Honeywell Supply,Central Europe,2023-12-08,2024-01-03,Pending,WH-06
+ORD-00338,Steel Coupling,323.0,372.98,,Asia-Pacific,2025-08-04,2025-08-21,Pending,WH-10
+ORD-00393,Conveyor Belt Segment,272.0,1966.32,Parker Hannifin,Asia-Pacific,2024-09-21,2024-09-30,Pending,WH-03
+ORD-00267,LED Driver Board,473.0,1790.76,Honeywell Supply,Central Europe,2025-04-10,2025-05-26,Delivered,WH-06
+ORD-00053,Circuit Breaker,320.0,631.26,Schneider Electric,Eastern Europe,02.06.2025,2025-06-09,Returned,WH-05
+ORD-00024,LED Driver Board,122.0,560.56,Emerson Electric,Western Europe,2024-11-07,2024-11-14,Returned,WH-03
+ORD-00240,LED Driver Board,144.0,1651.5,TE Connectivity,North America,2025-10-29,2025-11-29,Pending,WH-03
+ORD-00171,Industrial Sensor,272.0,1022.35,Eaton Corporation,Eastern Europe,2023-06-06,2023-07-11,In Transit,WH-04
+ORD-00045,LED Driver Board,453.0,1750.05,TE Connectivity,Western Europe,2023-07-30,2023-08-24,In Transit,WH-03
+ORD-00305,Steel Coupling,194.0,1107.64,Bosch Rexroth HU,Central Europe,2023-07-11,,In Transit,WH-02
+ORD-00352,Industrial Sensor,225.0,1731.25,Schneider Electric,Western Europe,2024-06-22,2024-07-17,In Transit,WH-10
+ORD-00023,Conveyor Belt Segment,4.0,146.63,Bosch Rexroth HU,Western Europe,2024-04-16,2024-05-26,Pending,WH-01
+ORD-00160,Steel Coupling,215.0,910.02,Siemens AG,Eastern Europe,2025-12-22,2026-01-07,Delivered,WH-06
+ORD-00003,LED Driver Board,215.0,444.78,TE Connectivity,Eastern Europe,2024-02-12,2024-03-31,Pending,WH-03
+ORD-00060,Power Supply Module,336.0,1376.81,Schneider Electric,Asia-Pacific,2025-03-29,2025-04-16,In Transit,WH-03
+ORD-00268,Power Supply Module,99999.0,310.61,TE Connectivity,Eastern Europe,2024-03-28,2024-04-14,Cancelled,WH-09
+ORD-00366,Circuit Breaker,419.0,245.58,Parker Hannifin,Western Europe,2023-01-17,2023-03-05,Cancelled,WH-02
+ORD-00199,Conveyor Belt Segment,-999.0,291.44,Parker Hannifin,Central Europe,2025-11-21,2025-12-30,Returned,WH-06
+ORD-00236,Microcontroller Unit,47.0,1890.74,Rockwell Automation,Asia-Pacific,2024-09-23,2024-10-27,In Transit,WH-04
+ORD-00019,Hydraulic Pump,123.0,120.56,TE Connectivity,,2025-01-13,2025-03-13,Pending,WH-08
+ORD-00371,Circuit Breaker,406.0,283.96,Honeywell Supply,Central Europe,2024-12-20,2025-01-19,UNKNOWN,WH-09
+ORD-00106,Power Supply Module,169.0,826.23,Emerson Electric,Eastern Europe,2023-08-03,2023-09-29,Cancelled,WH-09
+ORD-00068,Steel Coupling,437.0,1783.82,Parker Hannifin,North America,2024-12-21,2025-01-12,Returned,WH-10
+ORD-00347,Pneumatic Valve,210.0,1370.97,Parker Hannifin,Asia-Pacific,2025-11-01,2025-12-15,Cancelled,WH-03
+ORD-00265,Microcontroller Unit,134.0,770.23,Emerson Electric,Eastern Europe,"October 24, 2024",2024-11-11,Delivered,WH-05
+ORD-00421,Heat Exchanger,17.0,368.25,Eaton Corporation,North America,2025-03-12,2025-05-08,In Transit,WH-10
+ORD-00051,Circuit Breaker,224.0,1214.39,Rockwell Automation,Central Europe,2025-06-08,2025-07-03,Cancelled,WH-10
+ORD-00394,Microcontroller Unit,472.0,466.79,Rockwell Automation,,2024-07-27,2024-08-04,Delivered,WH-08
+ORD-00074,Conveyor Belt Segment,430.0,45.66,Siemens AG,Western Europe,2023-03-05,2023-03-23,In Transit,WH-08
+ORD-00168,Steel Coupling,149.0,234.77,Bosch Rexroth HU,Eastern Europe,2025-04-08,2025-05-26,In Transit,WH-10
+ORD-00398,Pneumatic Valve,239.0,631.5,Schneider Electric,North America,2023-08-05,2023-08-18,Delivered,WH-04
+ORD-00159,Power Supply Module,290.0,1316.4,Schneider Electric,Western Europe,2024-01-07,2024-03-05,Pending,WH-02
+ORD-00120,LED Driver Board,195.0,1908.51,Emerson Electric,North America,2024-11-03,2024-12-30,Pending,WH-10
+ORD-00376,Hydraulic Pump,111.0,84.45,Bosch Rexroth HU,Asia-Pacific,2023-05-19,2023-05-22,Returned,WH-05
+ORD-00450,Conveyor Belt Segment,449.0,1666.7,Bosch Rexroth HU,Western Europe,2023-03-01,2023-03-15,Pending,WH-08
+ORD-00175,Industrial Sensor,159.0,926.18,Bosch Rexroth HU,Central Europe,2024-12-21,,Delivered,WH-05
+ORD-00098,Microcontroller Unit,119.0,579.77,Honeywell Supply,Asia-Pacific,2025-08-20,2025-09-10,Pending,WH-04
+ORD-00079,Circuit Breaker,7.0,1699.9,Emerson Electric,Central Europe,2025-11-02,2025-12-16,Cancelled,WH-06
+ORD-00257,Pneumatic Valve,52.0,1363.98,,Central Europe,2025-04-26,2025-05-20,Returned,WH-03
+ORD-00248,Microcontroller Unit,226.0,630.82,Siemens AG,Asia-Pacific,2023-08-14,2023-08-29,In Transit,WH-07
+ORD-00410,Hydraulic Pump,93.0,57.0,TE Connectivity,Western Europe,2024-10-20,2024-11-16,Pending,WH-05
+ORD-00013,Power Supply Module,261.0,989.56,Bosch Rexroth HU,Central Europe,2025-01-11,,In Transit,WH-03
+ORD-00260,Steel Coupling,404.0,993.29,Honeywell Supply,Central Europe,2023-03-16,2023-05-11,Pending,WH-05
+ORD-00228,Heat Exchanger,22.0,1651.35,Bosch Rexroth HU,Central Europe,2024-11-22,2025-01-17,Pending,WH-10
+ORD-00048,Conveyor Belt Segment,115.0,52.21,ABB Limited,Asia-Pacific,2024-12-17,2025-01-08,Delivered,WH-05
+ORD-00104,Power Supply Module,241.0,1040.33,Emerson Electric,Eastern Europe,2023-03-24,2023-05-14,In Transit,WH-10
+ORD-00399,Pneumatic Valve,136.0,1705.7,Schneider Electric,Western Europe,2025-07-14,2025-08-05,Delivered,WH-10
+ORD-00020,LED Driver Board,393.0,255.89,Emerson Electric,North America,2023-05-22,2023-07-12,In Transit,WH-05
+ORD-00402,Pneumatic Valve,53.0,1608.77,Siemens AG,Central Europe,2024-05-26,2024-06-04,Pending,WH-01
+ORD-00192,Power Supply Module,140.0,901.39,Rockwell Automation,Western Europe,2023-06-21,2023-08-11,Cancelled,WH-02
+ORD-00058,Hydraulic Pump,116.0,1614.09,Siemens AG,,2024-04-26,2024-06-11,Pending,WH-04
+ORD-00090,Power Supply Module,155.0,33.23,Rockwell Automation,Western Europe,2024-04-10,2024-05-06,Delivered,WH-01
+ORD-00155,Industrial Sensor,211.0,710.43,Parker Hannifin,Central Europe,"November 06, 2024",2024-12-21,Delivered,WH-10
+ORD-00269,LED Driver Board,411.0,1329.87,ABB Limited,Western Europe,2025-08-22,2025-10-12,Returned,WH-02
+ORD-00111,Industrial Sensor,332.0,1665.13,Emerson Electric,Eastern Europe,2023-08-21,2023-09-22,Returned,WH-05
