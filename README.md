@@ -40,6 +40,8 @@ project1-data-quality-checker/
     └── quality_report.txt   # Output report (created on first run)
 ```
 
+![Architecture Diagram](assets/pipeline_flow.png)
+
 ---
 
 ## Quality Checks
@@ -147,6 +149,8 @@ PIPELINE COMPLETE
 ```
 
 The full `quality_report.txt` includes per-check details, affected row indices, and corrective recommendations for each failure.
+
+![Architecture Diagram](assets/terminal_output.png)
 
 ---
 
