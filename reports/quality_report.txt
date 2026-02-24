@@ -1,0 +1,204 @@
+============================================================
+SCM DATA QUALITY REPORT
+Generated : 2026-02-23 20:02:48 UTC
+============================================================
+
+============================================================
+DATASET OVERVIEW
+============================================================
+  File             : data/scm_orders.csv
+  Total Rows       : 465
+  Total Columns    : 10
+  Checks Run       : 7
+  Checks Passed    : 2
+  Checks Failed    : 5
+  Health Score     : 28.6%
+
+============================================================
+CHECK RESULTS
+============================================================
+
+------------------------------------------------------------
+Check 01 | SCHEMA CHECK | PASS
+------------------------------------------------------------
+  Summary   : Schema is valid — all expected columns present.
+  Timestamp : 2026-02-23T20:02:48Z
+  Affected  : 0 row(s)
+
+  Details:
+    Expected columns: ['delivery_date', 'order_date', 'order_id', 'product', 'quantity', 'region', 'status', 'supplier', 'unit_price_eur', 'warehouse_id']
+    Actual columns: ['delivery_date', 'order_date', 'order_id', 'product', 'quantity', 'region', 'status', 'supplier', 'unit_price_eur', 'warehouse_id']
+    Missing columns: (none)
+    Extra columns: (none)
+    Column count:
+      Expected: 10
+      Actual: 10
+
+------------------------------------------------------------
+Check 02 | NULL CHECK | FAIL
+------------------------------------------------------------
+  Summary   : 78 null value(s) across 5 column(s).
+  Timestamp : 2026-02-23T20:02:48Z
+  Affected  : 72 row(s)
+
+  Details:
+    Total nulls: 78
+    Null by column:
+      Quantity: 18
+      Supplier: 18
+      Region: 19
+      Delivery date: 19
+      Status: 4
+    Affected count: 72
+
+  Affected Row Indices (first 20 of 72):
+    [8, 18, 24, 25, 30, 31, 33, 40, 54, 58, 63, 65, 68, 70, 79, 86, 88, 90, 107, 108]
+
+------------------------------------------------------------
+Check 03 | DUPLICATE CHECK | FAIL
+------------------------------------------------------------
+  Summary   : 15 fully duplicate row(s); 15 duplicate order_id(s).
+  Timestamp : 2026-02-23T20:02:48Z
+  Affected  : 15 row(s)
+
+  Details:
+    Full duplicate count: 15
+    Duplicate order id count: 15
+    Duplicate order ids: ['ORD-00190', 'ORD-00048', 'ORD-00129', 'ORD-00194', 'ORD-00075', 'ORD-00221', 'ORD-00014', 'ORD-00094', 'ORD-00028', 'ORD-00015'] ... (14 total)
+
+  Affected Row Indices:
+    [31, 139, 149, 227, 253, 297, 313, 321, 355, 361, 417, 431, 442, 454, 457]
+
+------------------------------------------------------------
+Check 04 | OUTLIER CHECK | FAIL
+------------------------------------------------------------
+  Summary   : 19 row(s) contain outlier values in numeric columns.
+  Timestamp : 2026-02-23T20:02:48Z
+  Affected  : 19 row(s)
+
+  Details:
+    Per column:
+      Quantity:
+        Business rule violations: 10
+        Statistical outliers z3: 7
+        Combined affected: 10
+        Mean: 1805.41
+        Std: 12400.28
+        Min: -999.00
+        Max: 100000.00
+      Unit price eur:
+        Business rule violations: 9
+        Statistical outliers z3: 0
+        Combined affected: 9
+        Mean: 985.53
+        Std: 586.65
+        Min: -475.61
+        Max: 1998.75
+    Total affected rows: 19
+
+  Affected Row Indices:
+    [5, 28, 68, 128, 156, 171, 177, 184, 198, 239, 244, 247, 279, 321, 365, 378, 381, 425, 427]
+
+------------------------------------------------------------
+Check 05 | STATUS CHECK | FAIL
+------------------------------------------------------------
+  Summary   : 8 row(s) have invalid status values.
+  Timestamp : 2026-02-23T20:02:48Z
+  Affected  : 8 row(s)
+
+  Details:
+    Valid statuses: ['Cancelled', 'Delivered', 'In Transit', 'Pending', 'Returned']
+    Invalid values found:
+      Delivered: 5
+      Unknown: 3
+    Total invalid rows: 8
+
+  Affected Row Indices:
+    [33, 59, 77, 155, 173, 226, 357, 430]
+
+------------------------------------------------------------
+Check 06 | DATE FORMAT CHECK | PASS
+------------------------------------------------------------
+  Summary   : All dates are valid and consistent.
+  Timestamp : 2026-02-23T20:02:48Z
+  Affected  : 0 row(s)
+
+  Details:
+    Per column:
+      Order date:
+        Unparseable count: 0
+        Format distribution:
+          %y-%m-%d: 444
+          %m/%d/%y: 6
+          %b %d, %y: 8
+          %d.%m.%y: 7
+        Is consistent: No
+      Delivery date:
+        Unparseable count: 0
+        Format distribution:
+          %y-%m-%d: 446
+        Is consistent: Yes
+    Logical violations count: 0
+    Total affected rows: 0
+
+------------------------------------------------------------
+Check 07 | NEGATIVE PRICE CHECK | FAIL
+------------------------------------------------------------
+  Summary   : 9 row(s) have non-positive unit prices.
+  Timestamp : 2026-02-23T20:02:48Z
+  Affected  : 9 row(s)
+
+  Details:
+    Affected count: 9
+    Min price found: -475.61
+    Max price found: -20.66
+
+  Affected Row Indices:
+    [5, 68, 128, 171, 177, 198, 247, 321, 365]
+
+============================================================
+FAILED CHECKS SUMMARY
+============================================================
+
+  [null_check]
+    78 null value(s) across 5 column(s).
+    Affected rows: 72
+
+  [duplicate_check]
+    15 fully duplicate row(s); 15 duplicate order_id(s).
+    Affected rows: 15
+
+  [outlier_check]
+    19 row(s) contain outlier values in numeric columns.
+    Affected rows: 19
+
+  [status_check]
+    8 row(s) have invalid status values.
+    Affected rows: 8
+
+  [negative_price_check]
+    9 row(s) have non-positive unit prices.
+    Affected rows: 9
+
+============================================================
+RECOMMENDATIONS
+============================================================
+
+  [null_check]
+    Investigate upstream data sources for missing fields. Consider adding NOT NULL constraints at ingestion layer.
+
+  [duplicate_check]
+    Deduplicate records using order_id as the primary key. Add unique key enforcement in the pipeline.
+
+  [outlier_check]
+    Review quantity and price bounds with business stakeholders. Add min/max validation rules at data entry points.
+
+  [status_check]
+    Standardise status values to the approved enum set. Reject or quarantine records with unknown statuses.
+
+  [negative_price_check]
+    Reject records with non-positive unit prices at ingestion. Flag for manual review — may indicate refunds or data entry errors.
+
+============================================================
+END OF REPORT
+============================================================

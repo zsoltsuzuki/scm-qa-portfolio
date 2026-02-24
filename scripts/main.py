@@ -65,23 +65,39 @@ def step_generate(data_path: str, skip: bool) -> None:
         print(f"[STEP 1] Skipping dataset generation. Using: {data_path}")
     else:
         print("[STEP 1] Generating synthetic SCM dataset...")
-        generate_dataset()
+        try: 
+            generate_dataset()
+        except Exception as e:
+            print(f"[ERROR] Dataset generation failed: {type(e).__name__}: {e}")
+            sys.exit(1)
 
 
 def step_check(data_path: str) -> tuple[list[dict], dict]:
     print("\n[STEP 2] Running data quality checks...")
-    checker = DataQualityChecker(data_path)
-    checker.load()
-    results = checker.run_all()
-    summary = checker.get_summary_stats()
-    return results, summary
-
+    try:
+        checker = DataQualityChecker(data_path)
+        checker.load()
+        results = checker.run_all()
+        summary = checker.get_summary_stats()
+        return results, summary
+    except (FileNotFoundError, ValueError) as e:
+        print(f"[ERROR] Could not load dataset: {e}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"[ERROR] Unexpected failure during quality checks: {type(e).__name__}: {e}")
+        sys.exit(1)
 
 def step_report(results: list[dict], summary: dict, report_path: str) -> None:
     print(f"\n[STEP 3] Writing quality report...")
-    generator = ReportGenerator(results, summary)
-    generator.write(report_path)
-
+    try:
+        generator = ReportGenerator(results, summary)
+        generator.write(report_path)
+    except OSError as e:
+        print(f"[ERROR] Could not write report to '{report_path}': {e}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"[ERROR] Unexpected failure during report generation: '{type(e).__name__}': {e}")
+        sys.exit(1)
 
 def step_print_summary(summary: dict, results: list[dict]) -> None:
     failed = [r for r in results if not r["passed"]]
@@ -107,12 +123,17 @@ def step_print_summary(summary: dict, results: list[dict]) -> None:
 
 def main() -> None:
     args = parse_args()
-
-    step_generate(args.data_path, args.skip_generate)
-    results, summary = step_check(args.data_path)
-    step_report(results, summary, args.report_path)
-    step_print_summary(summary, results)
-
+    try:
+        step_generate(args.data_path, args.skip_generate)
+        results, summary = step_check(args.data_path)
+        step_report(results, summary, args.report_path)
+        step_print_summary(summary, results)
+    except KeyboardInterrupt:
+        print("\n[ABORTED] Pipeline interrupted by user.")
+        sys.exit(0)
+    except Exception as e:
+        print(f"[FATAL] An unexpected error terminated the pipeline: {type(e).__name__}: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
